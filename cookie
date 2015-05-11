@@ -1,0 +1,1 @@
+var s = prompt('c'); s.split('; ').forEach(function(c){document.cookie = c + '; expires=Fri, 31 Jan 2020 16:00:00 GMT'});
